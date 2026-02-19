@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "remote-state-pavan-dev"
+    bucket = "remote-state-pavan-dev-1"
     key    = "github-runner"
     region = "us-east-1"
     use_lockfile = true
